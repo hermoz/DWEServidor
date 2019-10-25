@@ -18,7 +18,7 @@
   	<description></description>
   	<display-name>mostrarEmpleadosController</display-name>
   	<servlet-name>mostrarEmpleadosController</servlet-name>
-  	<servlet-class>controllers.mostrarEmpleadosController</servlet-class>
+  	<servlet-class>controllers.mostrarEmpleadosController</servlet-class> 
   </servlet>
   <servlet>
   	<description></description>
