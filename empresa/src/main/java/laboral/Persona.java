@@ -1,12 +1,5 @@
-/**
- * 
- */
 package laboral;
 
-/**
- * @author pedro
- *
- */
 public class Persona {
 	
 	//Atributos
