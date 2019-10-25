@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pagina principal</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h5>Indique DNI para obtener datos</h5>
+	
+	<!-- En action es donde indicamos al servlet que queremos acceder  -->
+	<form id="formulario" action="mostrarEmpleadosController" method="POST">
+		<button>Mostrar Empleados</button>
+	</a>
+	<br>
+	<br>	
+	<form id="formulario" action="mostrarSalarioPorEmpleadoController" method="POST">		
+		<input type="text" name="dni">
+		<input type="submit" id="mostrar" value="Mostrar Salario" >	
+	</form>
+	<br>	
+	<form id="form" action="modificarEmpleadoController" method="POST">	
+		<input type="text" name="dni">
+		<input type="submit" id="modificar" value="Modificar Empleado" >
+	</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copiamos y pegamos este <web-app y nos aseguramos que la versión es 4_0 -->
+<web-app
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+    version="4.0">
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <!-- Es fundamental cambiar el orden que nos ha aparecido por defecto. Debe quedar:
+	  DESCRIPTION
+	  DISPLAY-NAME
+	  SERVLET-NAME
+	  SERVLET-CLASS
+   -->
+  <servlet>
+  	<description></description>
+  	<display-name>mostrarEmpleadosController</display-name>
+  	<servlet-name>mostrarEmpleadosController</servlet-name>
+  	<servlet-class>controllers.mostrarEmpleadosController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description></description>
+    <display-name>mostrarSalarioPorEmpleadoController</display-name>
+  	<servlet-name>mostrarSalarioPorEmpleadoController</servlet-name>
+  	<servlet-class>controllers.mostrarSalarioPorEmpleadoController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description></description>
+  	<display-name>modificarEmpleadoController</display-name>
+  	<servlet-name>modificarEmpleadoController</servlet-name>
+  	<servlet-class>controllers.modificarEmpleadoController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>modificarEmpleadoBDController</display-name>
+  	<servlet-name>modificarEmpleadoBDController</servlet-name>
+  	<servlet-class>controllers.modificarEmpleadoBDController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mostrarEmpleadosController</servlet-name>
+  	<url-pattern>/mostrarEmpleadosController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>mostrarSalarioPorEmpleadoController</servlet-name>
+  	<url-pattern>/mostrarSalarioPorEmpleadoController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>modificarEmpleadoController</servlet-name>
+  	<url-pattern>/modificarEmpleadoController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>modificarEmpleadoBDController</servlet-name>
+  	<url-pattern>/modificarEmpleadoBDController</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <!-- cambiamos la version a 4!! -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>empresa</groupId>
+  <artifactId>empresa</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>empresa Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  
+  	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>4.0.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>8.0.17</version>
+	</dependency>
+	
+	<!-- añadimos copiando y pegando para no obtener error -->
+	<dependency>
+		<groupId>org.glassfish.web</groupId>
+		<artifactId>javax.servlet.jsp.jstl</artifactId>
+		<version>1.2.4</version>
+	</dependency>
+	<!-- No me hace falta porque en el proyecto he controlado y he indicado java 11. Aun así se debe tener cuidado
+	cuando lo incluyamos en el proyecto por las características que tengamos por defecto. Deberíams escribir >11<
+	<properties>
+	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <maven.compiler.source>11</maven.compiler.source>
+	    <maven.compiler.target>11</maven.compiler.target>
+  	</properties>
+  	 -->
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>empresa</finalName>
+  </build>
+</project>
