@@ -1,12 +1,6 @@
-/**
- * 
- */
+
 package laboral;
 
-/**
- * @author pedro
- *
- */
 public class Persona {
 	
 	//Atributos
@@ -14,12 +8,6 @@ public class Persona {
 	String nombre;
 	String dni;
 	char sexo; 
-	
-	/**
-	 * @param nombre
-	 * @param dni
-	 * @param sexo
-	 */
 	
 	public Persona(String nombre, String dni, char sexo) {
 		
