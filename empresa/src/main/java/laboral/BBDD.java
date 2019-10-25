@@ -29,7 +29,7 @@ public class BBDD {
 	Nomina nomina=null;
 	
 	public BBDD() throws SQLException, ClassNotFoundException {
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.jdbc.Driver"); 
 		
 		//establecemos la conexion (direccion,usuario,contraseña)
 		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nomina", "root", "");

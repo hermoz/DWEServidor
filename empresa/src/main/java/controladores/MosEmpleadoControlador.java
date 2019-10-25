@@ -31,7 +31,7 @@ public class MosEmpleadoControlador extends HttpServlet {
 		BBDD bd;
 		try {
 			bd = new BBDD();
-		} catch (ClassNotFoundException e1) {
+		} catch (ClassNotFoundException e1) { 
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		} catch (SQLException e1) {

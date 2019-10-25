@@ -17,7 +17,7 @@ public class CalculaNominas {
 			Empleado emp = new Empleado("James Cosling","32000032G",'M',4,7);
 			Empleado emp2 = new Empleado("Ada Lovelace","32000031R",'F');
 				
-			bd.altaEmpleado(emp);
+			bd.altaEmpleado(emp); 
 			bd.altaEmpleado(emp2);
 			
 			try {

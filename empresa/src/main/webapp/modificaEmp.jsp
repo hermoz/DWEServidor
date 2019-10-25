@@ -22,7 +22,7 @@
 		<br>
 		<input type="submit" name="enviar" value="Modificar">
 		
-	</form>
+	</form> 
 	
 	
 	

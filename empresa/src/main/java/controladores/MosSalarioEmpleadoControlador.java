@@ -32,7 +32,7 @@ public class MosSalarioEmpleadoControlador extends HttpServlet {
 		/*
 		 * Creamos un objeto "RequestDispatcher" y su el metodo "forward()" para terminar de hacer el reenvio.
 		 */
-		RequestDispatcher rd;
+		RequestDispatcher rd; 
 		try {		
 			/*
 			 * Para mostrar el empleado al hacer el request le pasamos el parámetro DNI que hemos obtenido del formulario

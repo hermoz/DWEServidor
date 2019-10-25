@@ -13,7 +13,7 @@ public class Persona {
 	
 	String nombre;
 	String dni;
-	char sexo;
+	char sexo; 
 	
 	/**
 	 * @param nombre

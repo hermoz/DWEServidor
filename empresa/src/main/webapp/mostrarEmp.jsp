@@ -18,7 +18,7 @@
 			<td>Sexo</td>
 			<td>Categoria</td>
 			<td>Anyos</td>	
-		</tr>
+		</tr> 
 				
 			<c:forEach var="dato" items="${listaEmp}" >
 				

@@ -7,7 +7,7 @@ public class DatosNoCorrectosException extends Exception {
 	}
 
 	public DatosNoCorrectosException() {
-		super("Error en la introduccion de datos");
+		super("Error en la introduccion de datos"); 
 		
 	}
 	

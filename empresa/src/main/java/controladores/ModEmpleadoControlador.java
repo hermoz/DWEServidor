@@ -15,7 +15,7 @@ import laboral.Empleado;
 
 public class ModEmpleadoControlador extends HttpServlet {
 
-    public ModEmpleadoControlador() {
+    public ModEmpleadoControlador() { 
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

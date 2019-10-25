@@ -13,7 +13,7 @@ public class Empleado extends Persona{
 			throw new DatosNoCorrectosException("Anyos incorrecto");
 		}else {
 			this.anyos = anyos;
-		}
+		} 
 	
 	}
 	

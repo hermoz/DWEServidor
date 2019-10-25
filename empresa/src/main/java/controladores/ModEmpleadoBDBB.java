@@ -29,7 +29,7 @@ public class ModEmpleadoBDBB extends HttpServlet {
 		 * De ese formulario obtenemos los parámetros mediante request get paramenter como hemos venido haciendo
 		 * <input type="text" name="dni" value="${empleado.dni}"">
 		 */
-		BBDD bd = new BBDD();
+		BBDD bd = new BBDD(); 
 		
 		/*
 		 * Creamos un objeto "RequestDispatcher" y su el metodo "forward()" para terminar de hacer el reenvio.

@@ -14,7 +14,7 @@ public class Nomina {
 	
 	public static int sueldoController(int categoria, int anyos) {		
 		int sueldo = SUELDO_BASE[categoria-1] + (5000*anyos);		
-		return sueldo;		
+		return sueldo;		 
 	}	
 	
 }
