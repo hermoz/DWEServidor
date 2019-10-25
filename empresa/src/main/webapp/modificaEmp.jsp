@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-	<form action="modificarEmpleadoBDController" method="POST">
+	<form action="ModEmpleadoBDBB" method="POST">
 		
 		<input type="text" name="dni" value="${empleado.dni}"">
 		<br>
