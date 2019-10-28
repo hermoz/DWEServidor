@@ -10,7 +10,7 @@
   
   <!-- Es fundamental cambiar el orden que nos ha aparecido por defecto. Debe quedar:
 	  DESCRIPTION
-	  DISPLAY-NAME
+	  DISPLAY-NAME 
 	  SERVLET-NAME
 	  SERVLET-CLASS
    -->
