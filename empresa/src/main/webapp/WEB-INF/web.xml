@@ -16,43 +16,50 @@
    -->
   <servlet>
   	<description></description>
-  	<display-name>mostrarEmpleadosController</display-name>
-  	<servlet-name>mostrarEmpleadosController</servlet-name>
-  	<servlet-class>controllers.mostrarEmpleadosController</servlet-class> 
+  	<display-name>MosEmpleadoControlador</display-name>
+  	<servlet-name>MosEmpleadoControlador</servlet-name>
+  	<servlet-class>controladores.MosEmpleadoControlador</servlet-class> 
   </servlet>
   <servlet>
   	<description></description>
-    <display-name>mostrarSalarioPorEmpleadoController</display-name>
-  	<servlet-name>mostrarSalarioPorEmpleadoController</servlet-name>
-  	<servlet-class>controllers.mostrarSalarioPorEmpleadoController</servlet-class>
+    <display-name>MosSalarioEmpleadoControlador</display-name>
+  	<servlet-name>MosSalarioEmpleadoControlador</servlet-name>
+  	<servlet-class>controladores.MosSalarioEmpleadoControlador</servlet-class>
   </servlet>
   <servlet>
   	<description></description>
-  	<display-name>modificarEmpleadoController</display-name>
-  	<servlet-name>modificarEmpleadoController</servlet-name>
-  	<servlet-class>controllers.modificarEmpleadoController</servlet-class>
+  	<display-name>ModEmpleadoControlador</display-name>
+  	<servlet-name>ModEmpleadoControlador</servlet-name>
+  	<servlet-class>controladores.ModEmpleadoControlador</servlet-class>
   </servlet>
+    
+  <servlet-mapping>
+  	<servlet-name>ModEmpleadoBDBB</servlet-name>
+  	<url-pattern>/ModEmpleadoBDBB</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>ModEmpleadoControlador</servlet-name>
+  	<url-pattern>/ModEmpleadoControlador</url-pattern>
+  </servlet-mapping>
+  
   <servlet>
-  	<description>
-  	</description>
-  	<display-name>modificarEmpleadoBDController</display-name>
-  	<servlet-name>modificarEmpleadoBDController</servlet-name>
-  	<servlet-class>controllers.modificarEmpleadoBDController</servlet-class>
+  	<display-name>ModEmpleadoBDBB</display-name>
+  	<servlet-name>ModEmpleadoBDBB</servlet-name>
+  	<servlet-class>controladores.ModEmpleadoBDBB</servlet-class>
   </servlet>
+  
   <servlet-mapping>
-  	<servlet-name>mostrarEmpleadosController</servlet-name>
-  	<url-pattern>/mostrarEmpleadosController</url-pattern>
+  	<servlet-name>MosEmpleadoControlador</servlet-name>
+  	<url-pattern>/MosEmpleadoControlador</url-pattern>
   </servlet-mapping>
+  
   <servlet-mapping>
-  	<servlet-name>mostrarSalarioPorEmpleadoController</servlet-name>
-  	<url-pattern>/mostrarSalarioPorEmpleadoController</url-pattern>
+  	<servlet-name>MosSalarioEmpleadoControlador</servlet-name>
+  	<url-pattern>/MosSalarioEmpleadoControlador</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>modificarEmpleadoController</servlet-name>
-  	<url-pattern>/modificarEmpleadoController</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>modificarEmpleadoBDController</servlet-name>
-  	<url-pattern>/modificarEmpleadoBDController</url-pattern>
-  </servlet-mapping>
+  
+
+
+  
 </web-app>
